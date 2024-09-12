@@ -1,0 +1,15 @@
+/* .schoolLevels {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 35px;
+  padding: 0 80px;
+}
+
+@media (max-width: 991px) {
+  .schoolLevels {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+ */

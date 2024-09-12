@@ -3,15 +3,18 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 9vmin;
   pointer-events: none;
 }
 
+/* Uncomment this block if animation is needed */
+ /* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+*/
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +38,86 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.navbar-list {
+  list-style: none;         /* Remove bullet points */
+  padding: 0;               /* Remove default padding */
+  margin-left: 23rem;                /* Remove default margin */
+  display: flex;            /* Use flexbox for the list items */
+}
+
+.navbar-list li {
+  margin: 0 1rem;           /* Adjust spacing between list items */
+}
+
+.navbar-list a {
+  text-decoration: none;    /* Remove underline from links */
+  color: #212374;           /* Link color */
+  font-weight: bold;        /* Make the text bold */
+}
+
+.navbar-list a:hover {
+  color: #007bff;           /* Change color on hover */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+h1 {
+  font-size: 8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.explore {
+  background-color: #212374;
+  color: white;
+  margin-top:1rem;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.card-body{
+  background-color: #b2aeff;
+  border-radius: 5px;
+  border: none;
+}
+
+.card-body:hover{
+  background-color: #9c97ff;
+ 
 }
